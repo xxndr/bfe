@@ -1,0 +1,17 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ span::before {
+    background: green;
+}
+
+
+span::before {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    content: ''
+}

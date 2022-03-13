@@ -1,0 +1,14 @@
+.container {
+    height: 300px;
+    /* your code here */
+    display: grid;
+    grid-template-columns: minmax(100px, 25%) auto;
+}
+
+.left {
+    background-color: #f44336;
+}
+
+.right {
+    background-color: #2973af;
+}
